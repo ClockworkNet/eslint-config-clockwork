@@ -1,12 +1,12 @@
 {
   "name": "eslint-config-clockwork",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "description": "ESLint shared config for Clockwork",
   "main": "index.js",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/ClockworkNet/eslint-config-clockwork.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ClockworkNet/eslint-config-clockwork.git"
   },
   "scripts": {
     "precommit": "./node_modules/.bin/eslint .",
@@ -23,6 +23,6 @@
   },
   "engines": {
     "node": ">=v6.9.2",
-    "npm" : ">=3.10.9"
+    "npm": ">=3.10.9"
   }
 }
