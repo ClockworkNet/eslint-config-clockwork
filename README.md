@@ -1,24 +1,24 @@
 # eslint-confog-clockwork
 
-ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs) for [Clockwork](https://clockwork.com)
+> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs) for [Clockwork](https://clockwork.com)
 
 
 ## Install
 
-1. Use npm to instal ESLint and `eslint-config-clockwork` and update your `package.json` `devDependencies`.
-    
-    ```
-    npm install --save-dev eslint eslint-config-clockwork
-    ```
+```bash
+npm install --save-dev eslint eslint-config-clockwork
+```
 
-2. Create a `.eslint.json` file in the root level of your project and add this:
+## Usage
+
+Create a `.eslint.json` file in the root level of your project and add this:
     
-    ```
+```json
 {
     "extends": "clockwork"
 }
 
-    ```
+```
 
 ## Goals
 
@@ -29,3 +29,7 @@ ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-confi
 3. Make linting easy for CMS, website and application projects
 
 4. Applicable to many contexts (jQuery, Angular, React, Vue & Node). Projects may extend it with specifics for each if necessary.
+
+## License
+
+[MIT](http://vjpr.mit-license.org)
