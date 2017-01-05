@@ -1,0 +1,15 @@
+# Dependency directory
+node_modules/
+bower_components/
+
+# Compiled
+dist/
+
+# Logs
+npm-debug.log
+
+# Other
+.tmp
+reports
+.DS_Store
+.idea
