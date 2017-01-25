@@ -11,7 +11,7 @@ npm install --save-dev eslint eslint-config-clockwork
 
 ## Usage
 
-Create a `.eslint.json` file in the root level of your project and add this:
+Create a `.eslintrc` file in the root level of your project and add this:
 ```json
 {
     "extends": "clockwork"
