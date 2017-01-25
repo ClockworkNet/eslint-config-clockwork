@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-clockwork",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "license": "MIT",
   "description": "ESLint shared config for Clockwork",
   "main": "index.js",
