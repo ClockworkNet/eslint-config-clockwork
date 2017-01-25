@@ -9,6 +9,9 @@
     "url": "https://github.com/ClockworkNet/eslint-config-clockwork.git"
   },
   "scripts": {
+    "patch": "npm version patch && git push && npm publish",
+    "minor": "npm version minor && git push && npm publish",
+    "major": "npm version major && git push && npm publish",
     "precommit": "./node_modules/.bin/eslint .",
     "start": "./node_modules/.bin/eslint .",
     "test": "node index.test.js"
