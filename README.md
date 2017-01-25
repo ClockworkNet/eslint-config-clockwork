@@ -51,7 +51,7 @@ Add `precommit` to `package.json` [`scripts`](https://docs.npmjs.com/misc/script
 
 ```json
 "scripts": {
-  "lint": "./node_modules/.bin/eslint <FOLDER_TO_LINT>"
+  "lint": "./node_modules/.bin/eslint <FOLDER_TO_LINT>",
   "precommit": "npm run lint"
 }
 ```
