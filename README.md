@@ -23,7 +23,7 @@ Create a `.eslint.json` file in the root level of your project and add this:
 -   [Gulp ESLint](https://www.npmjs.com/package/gulp-eslint)
 -   [Grunt ESLint](https://www.npmjs.com/package/grunt-eslint)
 
-#### NPM Script
+### NPM Script
 
 Update [`scripts`](https://docs.npmjs.com/misc/scripts) in your `package.json` at the root of your project.
 
@@ -58,10 +58,10 @@ Add `precommit` to `package.json` [`scripts`](https://docs.npmjs.com/misc/script
 
 ## Goals
 
-{0}. Focus on rules that could lead to bugs
-{0}. Prefer rules that increase readability over stylistic or religious wars (like spacing)
-{0}. Make linting easy for CMS, website and application projects
-{0}. Applicable to many contexts (jQuery, Angular, React, Vue & Node). Projects may extend it with specifics for each if necessary.
+- Focus on rules that could lead to bugs
+- Prefer rules that increase readability over stylistic or religious wars (like spacing)
+- Make linting easy for CMS, website and application projects
+- Applicable to many contexts (jQuery, Angular, React, Vue & Node). Projects may extend it with specifics for each if necessary.
 
 ## License
 
