@@ -25,15 +25,11 @@ Create a `.eslint.json` file in the root level of your project and add this:
 
 #### NPM Script
 
-Update `scripts` in your `package.json` at the root of your project.
+Update [`scripts`](https://docs.npmjs.com/misc/scripts) in your `package.json` at the root of your project.
 
 ```json
-{
-  ...
-  "scripts": {
-    "lint": "./node_modules/.bin/eslint <FOLDER_TO_LINT>"
-  }
-  ...
+"scripts": {
+  "lint": "./node_modules/.bin/eslint <FOLDER_TO_LINT>"
 }
 ```
 
@@ -51,16 +47,12 @@ Use [Husky](https://www.npmjs.com/package/husky)
 npm install husky --save-dev
 ```
 
-Add `precommit` to `package.json` `scripts`
+Add `precommit` to `package.json` [`scripts`](https://docs.npmjs.com/misc/scripts)
 
-```
-{
-  ...
-  "scripts": {
-    "lint": "./node_modules/.bin/eslint <FOLDER_TO_LINT>"
-    "precommit": "npm run lint"
-  }
-  ...
+```json
+"scripts": {
+  "lint": "./node_modules/.bin/eslint <FOLDER_TO_LINT>"
+  "precommit": "npm run lint"
 }
 ```
 
