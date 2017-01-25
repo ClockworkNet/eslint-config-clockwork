@@ -12,8 +12,6 @@ module.exports = {
 	'rules': {
 		'no-console': 'warn',
 		'semi': ['error', 'always'],
-		'no-extra-semi': 'error',
-		'no-unexpected-multiline': 'error',
 		"semi-spacing": ['error', {'before': false, 'after': true}]
 	},
 	plugins: []
